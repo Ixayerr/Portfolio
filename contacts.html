@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контактна інформація та форма зворотного зв'язку Васильєва Богдана">
+    <meta name="author" content="Васильєв Богдан Анатолійович">
+    <title>Контакти — Портфоліо Васильєва Богдана</title>
+</head>
+<body>
+
+    <header>
+        <h1>Васильєв Богдан Анатолійович</h1>
+        <p>Майбутній фронтенд-розробник</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про мене</a></li>
+                <li>Контакти</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Контактна інформація</h2>
+            <p>Якщо у вас є запитання або пропозиції — звертайтеся! Я завжди радий спілкуванню.</p>
+
+            <ul>
+                <li>Email: <a href="mailto:your@email.com">your@email.com</a></li>
+                <li>Телефон: <a href="tel:+380000000000">+38 (000) 000-00-00</a></li>
+                <li>GitHub: <a href="https://github.com/" target="_blank">github.com/your-username</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Форма зворотного зв'язку</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Контактна інформація</legend>
+
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я" required>
+
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Повідомлення</legend>
+
+                    <label for="subject">Тема:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">-- Оберіть тему --</option>
+                        <option value="general">Загальне питання</option>
+                        <option value="cooperation">Співпраця</option>
+                        <option value="feedback">Відгук</option>
+                        <option value="other">Інше</option>
+                    </select>
+
+                    <br><br>
+
+                    <p>Тип звернення:</p>
+                    <label>
+                        <input type="radio" name="type" value="question" required> Питання
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="suggestion"> Пропозиція
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="complaint"> Скарга
+                    </label>
+
+                    <br><br>
+
+                    <label for="message">Повідомлення:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="5" cols="40"
+                        placeholder="Ваше повідомлення..." required></textarea>
+                </fieldset>
+
+                <br>
+
+                <label>
+                    <input type="checkbox" name="consent" required>
+                    Я погоджуюсь на обробку персональних даних
+                </label>
+
+                <br><br>
+
+                <button type="submit">Надіслати</button>
+
+            </form>
+        </section>
+
+        <aside>
+            <h2>Час відповіді</h2>
+            <p>Зазвичай я відповідаю протягом 1-2 робочих днів. Якщо питання термінове — пишіть на email напряму.</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Васильєв Богдан Анатолійович. Всі права захищені.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про мене</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
